@@ -10,8 +10,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jogovelha">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Resultado"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".jogoDificil"
+            android:exported="false"
+            android:parentActivityName=".Dificuldades" />
+        <activity
+            android:name=".jogoMedio"
+            android:exported="false"
+            android:parentActivityName=".Dificuldades" />
+        <activity
+            android:name=".Dificuldades"
+            android:exported="false"
+            android:parentActivityName=".ModoDeJogo" />
+        <activity
+            android:name=".jogoFacil"
+            android:exported="false"
+            android:parentActivityName=".Dificuldades" />
+        <activity
+            android:name=".jogoPlayer"
+            android:exported="false"
+            android:parentActivityName=".ModoDeJogo" />
+        <activity
             android:name=".ModoDeJogo"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

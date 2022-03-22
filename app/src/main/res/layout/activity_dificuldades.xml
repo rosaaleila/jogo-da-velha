@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ModoDeJogo"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/fundo">
+    android:background="@drawable/fundo"
+    tools:context=".Dificuldades">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
-        android:text="Modo de Jogo"
+        android:textSize="30sp"
+        android:text="Dificuldade"
         android:textColor="@color/white"/>
 
     <TextView
@@ -22,28 +24,28 @@
         android:text="Escolha uma opção:"
         android:textSize="25sp"
         android:textColor="@color/white"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="40dp"
         />
 
     <Button
-        android:id="@+id/player_vs_player"
+        android:id="@+id/facil"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/purple_bright"
-        android:drawableRight="@drawable/user"
-        android:drawableLeft="@drawable/user"
-        android:text="vs"
-        android:layout_marginBottom="20dp"
-        />
+        android:text="Fácil"
+        android:backgroundTint="@color/purple_bright"/>
 
     <Button
-        android:id="@+id/player_vs_pc"
+        android:id="@+id/medio"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/purple_bright"
-        android:drawableLeft="@drawable/user"
-        android:text="vs"
-        android:drawableRight="@drawable/pc"
-        />
+        android:text="Médio"
+        android:backgroundTint="@color/purple_bright"/>
+
+    <Button
+        android:id="@+id/dificil"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Dificil"
+        android:backgroundTint="@color/purple_bright"/>
 
 </LinearLayout>

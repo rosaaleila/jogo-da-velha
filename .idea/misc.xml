@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_main.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_dificuldades.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_jogo_dificil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_jogo_facil.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_jogo_medio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_jogo_pc.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_jogo_player.xml" value="0.22" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_modo_de_jogo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_resultado.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276364/AndroidStudioProjects/jogovelha/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
