@@ -21,149 +21,155 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
-            android:src="@drawable/user"></ImageView>
+            android:src="@drawable/user"
+            tools:ignore="ContentDescription" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jogador_1"
+                    android:textColor="@color/red"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/vitorias_jog1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vitórias: 00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/derrotas_jog1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Derrotas: 00"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/turno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Vez do Jogador 0."
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <GridLayout
+            android:id="@+id/container_botoes"
+            android:layout_width="282dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/botao1"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/botao2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/botao3"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/botao4"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/botao5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/botao6"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/botao7"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/botao8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/botao9"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/purple_bright"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/user" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"></LinearLayout>
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Jogador 1"
-                android:textColor="@color/red"
-                android:textSize="20sp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jogador 2"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/vitorias_jog1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Vitórias: 00"
-                android:textColor="@color/white"></TextView>
+                <TextView
+                    android:id="@+id/vitorias_jog2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vitórias: 00"
+                    android:textColor="@color/white" />
 
-            <TextView
-                android:id="@+id/derrotas_jog1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Derrotas: 00"
-                android:textColor="@color/white"></TextView>
+                <TextView
+                    android:id="@+id/derrotas_jog2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Derrotas: 00"
+                    android:textColor="@color/white" />
 
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/turno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Vez do Jogador 0."
-        android:textColor="@color/white"
-        android:textSize="23sp"></TextView>
-
-    <GridLayout
-        android:layout_width="282dp"
-        android:layout_height="239dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:columnCount="3"
-        android:rowCount="3">
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"></Button>
-
-        <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"></Button>
-
-    </GridLayout>
-
-    <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:background="@color/purple_bright"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:src="@drawable/user"></ImageView>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Jogador 2"
-                android:textColor="@color/blue"
-                android:textSize="20sp"></TextView>
-
-            <TextView
-                android:id="@+id/vitorias_jog2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Vitórias: 00"
-                android:textColor="@color/white"></TextView>
-
-            <TextView
-                android:id="@+id/derrotas_jog2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Derrotas: 00"
-                android:textColor="@color/white"></TextView>
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
 
 </LinearLayout>
