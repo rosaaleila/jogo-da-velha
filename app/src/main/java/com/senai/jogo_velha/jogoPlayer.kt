@@ -50,20 +50,16 @@ class jogoPlayer : AppCompatActivity() {
         botao1.setOnClickListener {
             if (jogadorAtual == "Jogador 1") {
                 jogadaPlayer1(botao1)
-                posicoesJogador1.add(botao1)
             } else if (jogadorAtual == "Jogador 2") {
                 jogadaPlayer2(botao1)
-                posicoesJogador2.add(botao1)
             }
         }
 
         botao2.setOnClickListener {
             if (jogadorAtual == "Jogador 1") {
                 jogadaPlayer1(botao2)
-                posicoesJogador1.add(botao2)
             } else if (jogadorAtual == "Jogador 2") {
                 jogadaPlayer2(botao2)
-                posicoesJogador2.add(botao2)
             }
         }
 
@@ -142,6 +138,7 @@ class jogoPlayer : AppCompatActivity() {
     private fun jogadaPlayer2(botao: Button) {
         botao.text = "O"
         jogadorAtual = "Jogador 1"
+        turnoTextView.text = "Vez de $jogadorAtual"
         botao.isEnabled = false
         verificarGanhador("O")
     }
@@ -149,6 +146,7 @@ class jogoPlayer : AppCompatActivity() {
     private fun jogadaPlayer1(botao: Button) {
         botao.text = "X"
         jogadorAtual = "Jogador 2"
+        turnoTextView.text = "Vez de $jogadorAtual"
         botao.isEnabled = false
         verificarGanhador("X")
     }
