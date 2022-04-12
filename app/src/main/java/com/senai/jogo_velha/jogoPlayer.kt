@@ -20,8 +20,6 @@ private lateinit var turnoTextView: TextView
 private lateinit var containerLayouts: GridLayout
 
 var jogadorAtual: String = "Jogador 1"
-var posicoesJogador1: MutableList<Button> = mutableListOf()
-var posicoesJogador2: MutableList<Button> = mutableListOf()
 
 class jogoPlayer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
