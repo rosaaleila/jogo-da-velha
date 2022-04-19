@@ -17,7 +17,6 @@ private lateinit var botao7: Button
 private lateinit var botao8: Button
 private lateinit var botao9: Button
 private lateinit var turnoTextView: TextView
-private lateinit var containerLayouts: GridLayout
 
 var jogadorAtual: String = "Jogador 1"
 
@@ -35,9 +34,9 @@ class jogoPlayer : AppCompatActivity() {
         botao7 = findViewById(R.id.botao7)
         botao8 = findViewById(R.id.botao8)
         botao9 = findViewById(R.id.botao9)
-        containerLayouts = findViewById(R.id.container_botoes)
 
         turnoTextView = findViewById(R.id.turno)
+        turnoTextView.text = "Vez de $jogadorAtual"
 
         calcularJogadas()
 

@@ -23,7 +23,7 @@
         <activity
             android:name=".Resultado"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ModoDeJogo" />
         <activity
             android:name=".jogoDificil"
             android:exported="false"

@@ -47,11 +47,4 @@
         android:text="Novo Jogo"
         android:backgroundTint="@color/purple_bright"></Button>
 
-    <Button
-        android:id="@+id/sair"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:text="Sair"
-        android:backgroundTint="@color/purple_bright"></Button>
-
 </LinearLayout>

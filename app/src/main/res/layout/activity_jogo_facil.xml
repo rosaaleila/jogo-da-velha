@@ -40,7 +40,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Vez do Jogador 0."
         android:textColor="@color/white"
         android:textSize="23sp" />
 
@@ -52,44 +51,62 @@
         android:rowCount="3">
 
         <Button
+            android:id="@+id/botao1"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 
         <Button
+            android:id="@+id/botao2"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
 
         <Button
+            android:id="@+id/botao3"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 
         <Button
+            android:id="@+id/botao4"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 
         <Button
+            android:id="@+id/botao5"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
 
         <Button
+            android:id="@+id/botao6"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 
         <Button
+            android:id="@+id/botao7"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 
         <Button
+            android:id="@+id/botao8"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
 
         <Button
+            android:id="@+id/botao9"
+            android:textColor="@color/white"
             android:layout_width="80dp"
             android:layout_height="80dp" />
 

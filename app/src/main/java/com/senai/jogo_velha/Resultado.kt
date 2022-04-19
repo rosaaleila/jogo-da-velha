@@ -13,7 +13,6 @@ class Resultado : AppCompatActivity() {
 
         val resultado = findViewById<TextView>(R.id.resultado)
         val novoJogo = findViewById<Button>(R.id.jogarNovamente)
-        val sair = findViewById<Button>(R.id.sair)
 
         val intent: Intent = getIntent()
 
@@ -29,10 +28,6 @@ class Resultado : AppCompatActivity() {
         novoJogo.setOnClickListener {
             val intent = Intent(this, ModoDeJogo::class.java)
             startActivity(intent)
-        }
-
-        sair.setOnClickListener {
-            finish()
         }
 
     }
